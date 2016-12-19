@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
-MAINTAINER CompanionCube samuel.hodgkins@sky.com
-ENV BYOND_MAJOR=507 
-ENV BYOND_MINOR=1286 
+MAINTAINER CrAzYPiLoT minima38123@gmail.com
+ENV BYOND_MAJOR=510
+ENV BYOND_MINOR=1332
 ENV BYOND_VERSION=${BYOND_MAJOR}.${BYOND_MINOR}
 ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg --add-architecture i386 && apt-get -qq update
